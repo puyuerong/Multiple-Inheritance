@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6875978C252DFB23007A8102 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6875978B252DFB23007A8102 /* AppDelegate.m */; };
+		6875978F252DFB23007A8102 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6875978E252DFB23007A8102 /* SceneDelegate.m */; };
+		68759792252DFB23007A8102 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68759791252DFB23007A8102 /* ViewController.m */; };
+		68759795252DFB23007A8102 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68759793252DFB23007A8102 /* Main.storyboard */; };
+		68759797252DFB26007A8102 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68759796252DFB26007A8102 /* Assets.xcassets */; };
+		6875979A252DFB26007A8102 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68759798252DFB26007A8102 /* LaunchScreen.storyboard */; };
+		6875979D252DFB26007A8102 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6875979C252DFB26007A8102 /* main.m */; };
+		687597A7252DFB26007A8102 /* NSProxyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 687597A6252DFB26007A8102 /* NSProxyTests.m */; };
+		687597B2252DFB26007A8102 /* NSProxyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 687597B1252DFB26007A8102 /* NSProxyUITests.m */; };
+		687597C1252DFB51007A8102 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 687597C0252DFB51007A8102 /* Person.m */; };
+		687597C4252DFB69007A8102 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 687597C3252DFB69007A8102 /* Animal.m */; };
+		687597C7252DFC11007A8102 /* PYRProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 687597C6252DFC11007A8102 /* PYRProxy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		687597A3252DFB26007A8102 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6875977F252DFB23007A8102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68759786252DFB23007A8102;
+			remoteInfo = NSProxy;
+		};
+		687597AE252DFB26007A8102 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6875977F252DFB23007A8102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68759786252DFB23007A8102;
+			remoteInfo = NSProxy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68759787252DFB23007A8102 /* NSProxy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSProxy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6875978A252DFB23007A8102 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6875978B252DFB23007A8102 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6875978D252DFB23007A8102 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		6875978E252DFB23007A8102 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		68759790252DFB23007A8102 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		68759791252DFB23007A8102 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		68759794252DFB23007A8102 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68759796252DFB26007A8102 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68759799252DFB26007A8102 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6875979B252DFB26007A8102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6875979C252DFB26007A8102 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		687597A2252DFB26007A8102 /* NSProxyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSProxyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		687597A6252DFB26007A8102 /* NSProxyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSProxyTests.m; sourceTree = "<group>"; };
+		687597A8252DFB26007A8102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		687597AD252DFB26007A8102 /* NSProxyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSProxyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		687597B1252DFB26007A8102 /* NSProxyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSProxyUITests.m; sourceTree = "<group>"; };
+		687597B3252DFB26007A8102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		687597BF252DFB51007A8102 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		687597C0252DFB51007A8102 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		687597C2252DFB69007A8102 /* Animal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		687597C3252DFB69007A8102 /* Animal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		687597C5252DFC11007A8102 /* PYRProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYRProxy.h; sourceTree = "<group>"; };
+		687597C6252DFC11007A8102 /* PYRProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYRProxy.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68759784252DFB23007A8102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6875979F252DFB26007A8102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687597AA252DFB26007A8102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6875977E252DFB23007A8102 = {
+			isa = PBXGroup;
+			children = (
+				68759789252DFB23007A8102 /* NSProxy */,
+				687597A5252DFB26007A8102 /* NSProxyTests */,
+				687597B0252DFB26007A8102 /* NSProxyUITests */,
+				68759788252DFB23007A8102 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68759788252DFB23007A8102 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68759787252DFB23007A8102 /* NSProxy.app */,
+				687597A2252DFB26007A8102 /* NSProxyTests.xctest */,
+				687597AD252DFB26007A8102 /* NSProxyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68759789252DFB23007A8102 /* NSProxy */ = {
+			isa = PBXGroup;
+			children = (
+				6875978A252DFB23007A8102 /* AppDelegate.h */,
+				6875978B252DFB23007A8102 /* AppDelegate.m */,
+				6875978D252DFB23007A8102 /* SceneDelegate.h */,
+				6875978E252DFB23007A8102 /* SceneDelegate.m */,
+				687597C5252DFC11007A8102 /* PYRProxy.h */,
+				687597C6252DFC11007A8102 /* PYRProxy.m */,
+				687597BF252DFB51007A8102 /* Person.h */,
+				687597C0252DFB51007A8102 /* Person.m */,
+				687597C2252DFB69007A8102 /* Animal.h */,
+				687597C3252DFB69007A8102 /* Animal.m */,
+				68759790252DFB23007A8102 /* ViewController.h */,
+				68759791252DFB23007A8102 /* ViewController.m */,
+				68759793252DFB23007A8102 /* Main.storyboard */,
+				68759796252DFB26007A8102 /* Assets.xcassets */,
+				68759798252DFB26007A8102 /* LaunchScreen.storyboard */,
+				6875979B252DFB26007A8102 /* Info.plist */,
+				6875979C252DFB26007A8102 /* main.m */,
+			);
+			path = NSProxy;
+			sourceTree = "<group>";
+		};
+		687597A5252DFB26007A8102 /* NSProxyTests */ = {
+			isa = PBXGroup;
+			children = (
+				687597A6252DFB26007A8102 /* NSProxyTests.m */,
+				687597A8252DFB26007A8102 /* Info.plist */,
+			);
+			path = NSProxyTests;
+			sourceTree = "<group>";
+		};
+		687597B0252DFB26007A8102 /* NSProxyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				687597B1252DFB26007A8102 /* NSProxyUITests.m */,
+				687597B3252DFB26007A8102 /* Info.plist */,
+			);
+			path = NSProxyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68759786252DFB23007A8102 /* NSProxy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 687597B6252DFB26007A8102 /* Build configuration list for PBXNativeTarget "NSProxy" */;
+			buildPhases = (
+				68759783252DFB23007A8102 /* Sources */,
+				68759784252DFB23007A8102 /* Frameworks */,
+				68759785252DFB23007A8102 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSProxy;
+			productName = NSProxy;
+			productReference = 68759787252DFB23007A8102 /* NSProxy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		687597A1252DFB26007A8102 /* NSProxyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 687597B9252DFB26007A8102 /* Build configuration list for PBXNativeTarget "NSProxyTests" */;
+			buildPhases = (
+				6875979E252DFB26007A8102 /* Sources */,
+				6875979F252DFB26007A8102 /* Frameworks */,
+				687597A0252DFB26007A8102 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				687597A4252DFB26007A8102 /* PBXTargetDependency */,
+			);
+			name = NSProxyTests;
+			productName = NSProxyTests;
+			productReference = 687597A2252DFB26007A8102 /* NSProxyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		687597AC252DFB26007A8102 /* NSProxyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 687597BC252DFB26007A8102 /* Build configuration list for PBXNativeTarget "NSProxyUITests" */;
+			buildPhases = (
+				687597A9252DFB26007A8102 /* Sources */,
+				687597AA252DFB26007A8102 /* Frameworks */,
+				687597AB252DFB26007A8102 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				687597AF252DFB26007A8102 /* PBXTargetDependency */,
+			);
+			name = NSProxyUITests;
+			productName = NSProxyUITests;
+			productReference = 687597AD252DFB26007A8102 /* NSProxyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6875977F252DFB23007A8102 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "蒲悦蓉";
+				TargetAttributes = {
+					68759786252DFB23007A8102 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					687597A1252DFB26007A8102 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 68759786252DFB23007A8102;
+					};
+					687597AC252DFB26007A8102 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 68759786252DFB23007A8102;
+					};
+				};
+			};
+			buildConfigurationList = 68759782252DFB23007A8102 /* Build configuration list for PBXProject "NSProxy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6875977E252DFB23007A8102;
+			productRefGroup = 68759788252DFB23007A8102 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68759786252DFB23007A8102 /* NSProxy */,
+				687597A1252DFB26007A8102 /* NSProxyTests */,
+				687597AC252DFB26007A8102 /* NSProxyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68759785252DFB23007A8102 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6875979A252DFB26007A8102 /* LaunchScreen.storyboard in Resources */,
+				68759797252DFB26007A8102 /* Assets.xcassets in Resources */,
+				68759795252DFB23007A8102 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687597A0252DFB26007A8102 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687597AB252DFB26007A8102 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68759783252DFB23007A8102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687597C7252DFC11007A8102 /* PYRProxy.m in Sources */,
+				68759792252DFB23007A8102 /* ViewController.m in Sources */,
+				6875978C252DFB23007A8102 /* AppDelegate.m in Sources */,
+				687597C1252DFB51007A8102 /* Person.m in Sources */,
+				687597C4252DFB69007A8102 /* Animal.m in Sources */,
+				6875979D252DFB26007A8102 /* main.m in Sources */,
+				6875978F252DFB23007A8102 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6875979E252DFB26007A8102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687597A7252DFB26007A8102 /* NSProxyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687597A9252DFB26007A8102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687597B2252DFB26007A8102 /* NSProxyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		687597A4252DFB26007A8102 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68759786252DFB23007A8102 /* NSProxy */;
+			targetProxy = 687597A3252DFB26007A8102 /* PBXContainerItemProxy */;
+		};
+		687597AF252DFB26007A8102 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68759786252DFB23007A8102 /* NSProxy */;
+			targetProxy = 687597AE252DFB26007A8102 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68759793252DFB23007A8102 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68759794252DFB23007A8102 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68759798252DFB26007A8102 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68759799252DFB26007A8102 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		687597B4252DFB26007A8102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		687597B5252DFB26007A8102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		687597B7252DFB26007A8102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NSProxy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pyr.NSProxy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		687597B8252DFB26007A8102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NSProxy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pyr.NSProxy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		687597BA252DFB26007A8102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NSProxyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pyr.NSProxyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSProxy.app/NSProxy";
+			};
+			name = Debug;
+		};
+		687597BB252DFB26007A8102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NSProxyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pyr.NSProxyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSProxy.app/NSProxy";
+			};
+			name = Release;
+		};
+		687597BD252DFB26007A8102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NSProxyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pyr.NSProxyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NSProxy;
+			};
+			name = Debug;
+		};
+		687597BE252DFB26007A8102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NSProxyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pyr.NSProxyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NSProxy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68759782252DFB23007A8102 /* Build configuration list for PBXProject "NSProxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				687597B4252DFB26007A8102 /* Debug */,
+				687597B5252DFB26007A8102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		687597B6252DFB26007A8102 /* Build configuration list for PBXNativeTarget "NSProxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				687597B7252DFB26007A8102 /* Debug */,
+				687597B8252DFB26007A8102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		687597B9252DFB26007A8102 /* Build configuration list for PBXNativeTarget "NSProxyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				687597BA252DFB26007A8102 /* Debug */,
+				687597BB252DFB26007A8102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		687597BC252DFB26007A8102 /* Build configuration list for PBXNativeTarget "NSProxyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				687597BD252DFB26007A8102 /* Debug */,
+				687597BE252DFB26007A8102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6875977F252DFB23007A8102 /* Project object */;
+}
